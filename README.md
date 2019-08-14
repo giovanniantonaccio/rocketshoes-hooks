@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Icons made by Flaticon" src="https://image.flaticon.com/icons/svg/1108/1108832.svg" height="124" width="124">
+    <br>
+    Rocketshoes
+</h1>
 
-## Available Scripts
+This small project is a ReactJS application developed during [Rocketseat Bootcamp](https://rocketseat.com.br/bootcamp) using Redux and Redux Saga.
 
-In the project directory, you can run:
+The objective here was not to build a real ecommerce, but to demonstrate how Redux and Redux Saga could be used in order to help in the development of applications that need to share states between components.
 
-### `npm start`
+The structure used for this application is scalable, so fell free to use in your projects if you want! There are some details that were not implemented, like propTypes to validate the props passed to each component or loadings to inform that actions are in progress.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The fake data comes from Json Server :)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## :rocket: Installation
 
-### `npm test`
+Clone the repository
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone https://github.com/giovanniantonaccio/Rocketshoes.git
+```
 
-### `npm run build`
+Open a terminal on the repository folder and install the dependencies:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+yarn
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+To run the application in development mode run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+yarn start
+```
 
-### `npm run eject`
+This application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Follow the link for further information.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :books: Technologies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project was developed with the following technologies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [ReactJS](https://reactjs.org/)
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Styled Components](https://www.styled-components.com/)
+- [Polished](https://github.com/styled-components/polished)
+- [Axios](https://github.com/axios/axios)
+- [React Icons](https://www.npmjs.com/package/react-icons)
+- [React Router DOM](https://www.npmjs.com/package/react-router-dom)
+- [React Toastify](https://github.com/fkhadra/react-toastify)
+- [Redux](https://redux.js.org/)
+- [Redux Saga](https://github.com/redux-saga/redux-saga)
+- [Immer](https://github.com/immerjs/immer)
+- [Reactotron](https://github.com/infinitered/reactotron)
+- [History](https://github.com/browserstate/history.js/)
+- [Json Server](https://github.com/typicode/json-server)
+- [Babel](https://babeljs.io/)
+- [Webpack](https://webpack.js.org/)
+- [Prettier](https://prettier.io/)
+- [VS Code](https://code.visualstudio.com/) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :mega: Live Preview
 
-## Learn More
+[Check on Netlify!](https://rocketshoes-giovanniantonaccio.netlify.com/) :grimacing:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :memo: License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is under the MIT license. See the [LICENSE](https://github.com/giovanniantonaccio/Rocketshoes/blob/master/LICENSE) for more information.
 
-### Code Splitting
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Made by Giovanni Antonaccio :wave: [Get in touch!](https://www.linkedin.com/in/giovanniantonaccio/)
