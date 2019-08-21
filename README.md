@@ -4,7 +4,7 @@
     Rocketshoes
 </h1>
 
-This small project is a ReactJS application developed during [Rocketseat Bootcamp](https://rocketseat.com.br/bootcamp) using Redux and Redux Saga.
+This small project is a ReactJS application developed during [Rocketseat Bootcamp](https://rocketseat.com.br/bootcamp) using Redux and Redux Saga, but this time, using the React Hooks!
 
 The objective here was not to build a real ecommerce, but to demonstrate how Redux and Redux Saga could be used in order to help in the development of applications that need to share states between components.
 
@@ -57,13 +57,10 @@ This project was developed with the following technologies:
 - [Prettier](https://prettier.io/)
 - [VS Code](https://code.visualstudio.com/) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-## :mega: Live Preview
-
-[Check on Netlify!](https://rocketshoes-giovanniantonaccio.netlify.com/) :grimacing:
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/giovanniantonaccio/Rocketshoes/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/giovanniantonaccio/rocketshoes-hooks/blob/master/LICENSE) for more information.
 
 ---
 
